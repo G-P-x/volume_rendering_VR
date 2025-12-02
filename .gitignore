@@ -17,3 +17,6 @@ Release/
 Samples/
 Samples.meta
 .utmp/
+
+# Leave Volume Rendering Package folder out of git, each user should download it separately
+Assets/UnityVolumeRendering-master/
