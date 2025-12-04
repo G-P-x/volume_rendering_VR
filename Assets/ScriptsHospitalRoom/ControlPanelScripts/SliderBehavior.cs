@@ -84,7 +84,7 @@ public class SliderBehavior : MonoBehaviour
     public void SetValue(float value)
     {
         slider.value = value;
-        Debug.Log($"Slider value set to {value}");
+        // Debug.Log($"Slider value set to {value}");
         return;
     }
 

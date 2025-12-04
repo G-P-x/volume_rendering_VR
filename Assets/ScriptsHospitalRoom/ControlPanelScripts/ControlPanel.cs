@@ -38,7 +38,7 @@ public class ControlPanel : MonoBehaviour
     /// <param name="maxThreshold">Threshold from maximum slider</param>
     public void NotifyThresholdChange(float minThreshold, float maxThreshold)
     {   
-        Debug.Log($"ControlPanel: Thresholds changed to Min: {minThreshold}, Max: {maxThreshold}");
+        // Debug.Log($"ControlPanel: Thresholds changed to Min: {minThreshold}, Max: {maxThreshold}");
         linker.NotifyThresholdChange(minThreshold, maxThreshold);
     }
 }

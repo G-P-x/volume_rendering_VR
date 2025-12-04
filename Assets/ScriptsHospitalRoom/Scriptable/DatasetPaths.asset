@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86af7eae29c35204a820e50c1cad517e, type: 3}
   m_Name: DatasetPaths
   m_EditorClassIdentifier: Assembly-CSharp::DatasetPaths
-  rawDatasetPath: UnityVolumeRendering-master/UnityVolumeRendering-master/DataFiles/VisMale.raw
+  rawDatasetPath: UnityVolumeRendering-master/UnityVolumeRendering-master/DataFiles/VisMale.raw.ini
