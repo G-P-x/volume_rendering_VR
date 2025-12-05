@@ -26,7 +26,7 @@ public class ControlPanel : MonoBehaviour
     /// <param name="mode"></param>
     public void NotifyRenderModeChange(UnityVolumeRendering.RenderMode mode)
     {
-        Debug.Log($"ControlPanel: Render mode changed to {mode}");
+        // Debug.Log($"ControlPanel: Render mode changed to {mode}");
         linker.NotifyRenderModeChange(mode);
         slidersManager.ResetSliders();
     }

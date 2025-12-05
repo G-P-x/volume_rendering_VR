@@ -40,7 +40,7 @@ public class VolumeObjControlPanelLinker : MonoBehaviour
             return;
         }
 
-        Debug.Log($"VolumeObjControlPanelLinker: Notifying VolumeRenderedObject of threshold change. Min: {minThreshold}, Max: {maxThreshold}");
+        // Debug.Log($"VolumeObjControlPanelLinker: Notifying VolumeRenderedObject of threshold change. Min: {minThreshold}, Max: {maxThreshold}");
         // Here you would implement the logic to update the volumeObject's thresholds
         ChangeVisibleValueRange(minThreshold, maxThreshold);
     }
@@ -57,7 +57,7 @@ public class VolumeObjControlPanelLinker : MonoBehaviour
             return;
         }
 
-        Debug.Log($"VolumeObjControlPanelLinker: Notifying VolumeRenderedObject of render mode change to {mode}");
+        // Debug.Log($"VolumeObjControlPanelLinker: Notifying VolumeRenderedObject of render mode change to {mode}");
         // Here you would implement the logic to update the volumeObject's render mode
         ChangeRenderMode(mode);
     }

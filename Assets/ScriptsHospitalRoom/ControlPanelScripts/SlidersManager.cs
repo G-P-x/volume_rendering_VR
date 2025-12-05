@@ -35,7 +35,7 @@ public class SlidersManager : MonoBehaviour
                 maxThresholdSlider.SetValue(value);
             }
             // Notify to the ControlPanel about the change
-            Debug.Log($"Min Threshold Slider changed to {value}");
+            // Debug.Log($"Min Threshold Slider changed to {value}");
             controlPanel.NotifyThresholdChange(value, max);
         }
         else if (sender == SliderType.MAX_VALUE)
@@ -46,7 +46,7 @@ public class SlidersManager : MonoBehaviour
                 minThresholdSlider.SetValue(value);
             }
             // Notify to the ControlPanel about the change
-            Debug.Log($"Max Threshold Slider changed to {value}");
+            // Debug.Log($"Max Threshold Slider changed to {value}");
             controlPanel.NotifyThresholdChange(min, value);
         }
         else
