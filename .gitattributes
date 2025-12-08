@@ -1,0 +1,28 @@
+# Force all text files to use LF (Unity uses LF internally)
+* text=auto eol=lf
+
+# Treat Unity YAML files as text, normalize line endings
+*.asset text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+
+# Force certain files to remain binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.fbx  binary
+*.tga  binary
+*.psd  binary
+*.wav  binary
+*.mp3  binary
+*.ttf  binary
+*.otf  binary
+
+# ShaderGraph assets must be text-normalized (avoids fake diffs)
+*.shadergraph text eol=lf
+*.shadersubgraph text eol=lf
+
+# Prevent Git from tracking filemode changes (Unity ignores chmod)
+* -filemode
