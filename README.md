@@ -15,3 +15,4 @@ To ensure it won’t be included in your own repository, verify that the path an
 
 ***References***
 - *lowpoly-medical-room*: https://sketchfab.com/3d-models/lowpoly-medical-room-616dbedad00e4ff9982d336035d6987a
+- *UnityVolumeRendering*: https://github.com/mlavik1/UnityVolumeRendering
