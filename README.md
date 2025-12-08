@@ -8,6 +8,8 @@ Installed modules are:
 Download the repository as a ZIP from https://github.com/mlavik1/UnityVolumeRendering (no need to clone).
 Unpack it into your Assets folder in your Unity project.
 Use the version corresponding to commit **65ab1f6**
+Be sure, at the end, to have a path like Assets/UnityVolumeRendering-master/UnityVolumeRendering-master/..
+Otherwise you will have problem loading the raw dataset. Eventually, change it with the new path to the raw dataset in the scriptable object DatasetPaths.
 
 To ensure it won’t be included in your own repository, verify that the path and the name of the unzipped folder match an entry in your **.gitignore**.
 
