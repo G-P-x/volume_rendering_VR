@@ -13,6 +13,9 @@ Otherwise you will have problem loading the raw dataset. Eventually, change it w
 
 To ensure it won’t be included in your own repository, verify that the path and the name of the unzipped folder match an entry in your **.gitignore**.
 
+**Possible errors**
+- If you see an error related to the XR settings from the UnityVolumeRendering-master folder, you can safely delete it. It will not effect the project.
+
 ***References***
 - *lowpoly-medical-room*: https://sketchfab.com/3d-models/lowpoly-medical-room-616dbedad00e4ff9982d336035d6987a
 - *UnityVolumeRendering*: https://github.com/mlavik1/UnityVolumeRendering
